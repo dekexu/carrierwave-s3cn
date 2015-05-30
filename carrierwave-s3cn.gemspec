@@ -5,7 +5,7 @@ require 'carrierwave/s3cn/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "carrierwave-s3cn"
-  spec.version       = Carrierwave::S3cn::VERSION
+  spec.version       = CarrierWave::S3cn::VERSION
   spec.authors       = ["xudeke"]
   spec.email         = ["xudeke@gmail.com"]
   spec.summary       = %q{S3 storage, in china, support for CarrierWave }

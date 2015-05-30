@@ -1,4 +1,4 @@
-# Carrierwave::S3cn
+# CarrierWave::S3cn
 
 TODO: Write a gem description
 

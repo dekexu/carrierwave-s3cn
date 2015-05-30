@@ -116,9 +116,17 @@ module CarrierWave
         def file_info
           @file_info ||= s3cn_connection.info(@path)
         end
-
       end
 
+      def store!(file)
+        f = ::CarrierWave::Storage::S3cn::File.new(uploader, uploader.store_path(uploader.filename))
+        f.store(file)
+        f
+      end
+
+      def retrieve!(identifier)
+        ::CarrierWave::Storage::S3cn::File.new(uploader, uploader.store_path(identifier))
+      end
     end
   end
 end
