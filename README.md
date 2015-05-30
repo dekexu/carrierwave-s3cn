@@ -58,12 +58,12 @@ class AvatarUploader < CarrierWave::Uploader::Base
 
 end
 ```
-You can see a example project on: https://github.com/dekexu/carrierwave-qiniu-example 
-or see the spec test on https://github.com/huobazi/carrierwave-qiniu/blob/master/spec/upload_spec.rb
+You can see a example project on: https://github.com/dekexu/carrierwave-s3cn
+or see the spec test on https://github.com/dekexu/carrierwave-s3cn
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/carrierwave-s3cn/fork )
+1. Fork it ( https://github.com/dekexu/carrierwave-s3cn/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
