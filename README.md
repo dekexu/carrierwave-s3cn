@@ -53,7 +53,7 @@ class AvatarUploader < CarrierWave::Uploader::Base
   self.s3cn_bucket = "avatars"
   self.s3cn_access_key_id = ""
   self.s3cn_secret_access_key = ''
-  self.s3cn_bucket_private= true #default is false
+  self.s3cn_bucket_private= true #default is true
 
 end
 ```
