@@ -34,9 +34,9 @@ You'll need to configure it in config/initializes/carrierwave.rb
 end
 ```
 
-For more information on qiniu, please read http://docs.aws.amazon.com/general/latest/gr/isolated_regions.html
+For more information on s3cn, please read http://docs.aws.amazon.com/general/latest/gr/isolated_regions.html
 
-And then in your uploader, set the storage to `:qiniu`:
+And then in your uploader, set the storage to `:s3cn`:
 
 ```ruby
 class AvatarUploader < CarrierWave::Uploader::Base
@@ -53,7 +53,7 @@ class AvatarUploader < CarrierWave::Uploader::Base
   self.s3cn_bucket = "avatars"
   self.s3cn_access_key_id = ""
   self.s3cn_secret_access_key = ''
-  self.qiniu_bucket_private= true #default is false
+  self.s3cn_bucket_private= true #default is false
 
 end
 ```
