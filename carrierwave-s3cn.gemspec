@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CarrierWave::S3cn::VERSION
   spec.authors       = ["xudeke"]
   spec.email         = ["xudeke@gmail.com"]
-  spec.summary       = %q{S3 storage, in china, support for CarrierWave }
-  spec.description   = %q{S3 storage, in china, support for CarrierWave}
+  spec.summary       = %q{S3 storage, in china, plugin for CarrierWave }
+  spec.description   = %q{S3 storage, in china, plugin for CarrierWave}
   spec.homepage      = ""
   spec.license       = "MIT"
 
