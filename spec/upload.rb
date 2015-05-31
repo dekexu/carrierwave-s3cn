@@ -1,3 +1,11 @@
+require "rubygems"
+require "rspec"
+require "rspec/autorun"
+require "padrino"
+require "active_record"
+require "carrierwave"
+require "carrierwave/orm/activerecord"
+
 class ImageUploader < CarrierWave::Uploader::Base
   storage :s3cn
   self.s3cn_region            = "cn-north-1"

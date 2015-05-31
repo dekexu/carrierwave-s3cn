@@ -19,7 +19,9 @@ module CarrierWave
         end
 
         def store(file, key)
-          @s3cn_bucket_obj.objects.create(key, file)
+          stored_file = file.to_file
+          @s3cn_bucket_obj.objects.create(key, stored_file)
+          stored_file.close if stored_file && !stored_file.closed?
         end
 
         def delete(key)
