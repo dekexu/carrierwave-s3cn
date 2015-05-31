@@ -1,6 +1,6 @@
 # CarrierWave::S3cn
 
-该gem包主要用于s3在中国区域的使用。海外地区，使用carrierwave自带的fog就可以上传。
+该gem包主要用于s3在中国区域的使用, 哎，主要是s3的中国区域是被独立的区域。海外地区，使用carrierwave自带的fog就可以上传。
 ## Installation
 
 Add this line to your application's Gemfile:
