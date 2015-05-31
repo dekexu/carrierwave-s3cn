@@ -1,7 +1,6 @@
 # CarrierWave::S3cn
 
-TODO: Write a gem description
-
+该gem包主要用于s3在中国区域的使用。海外地区，使用carrierwave自带的fog就可以上传。
 ## Installation
 
 Add this line to your application's Gemfile:
