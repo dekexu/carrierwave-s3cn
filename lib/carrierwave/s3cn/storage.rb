@@ -89,7 +89,7 @@ module CarrierWave
         end
 
         def etag
-          file_info[:etag]
+          file_info[:etag].tr '"', ''
         end
 
         def meta
