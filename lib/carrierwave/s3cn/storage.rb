@@ -96,6 +96,10 @@ module CarrierWave
           file_info[:meta]
         end
 
+        def attributes
+          file_info
+        end
+
         private
 
         def s3cn_connection
