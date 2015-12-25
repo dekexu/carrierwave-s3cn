@@ -1,6 +1,9 @@
 # CarrierWave::S3cn
 
 该gem包主要用于s3在中国区域的使用, 哎，主要是s3的中国区域是被独立的区域。海外地区，使用carrierwave自带的fog就可以上传。
+有几点需要注意的地方：
+1. IAM地方 授权「上传角色」s3全部权限。
+2. 配置跟权限都没问题，生成的s3地址如果访问不了，那应该是网站备案问题。网站需要在亚马逊备案。
 ## Installation
 
 Add this line to your application's Gemfile:
