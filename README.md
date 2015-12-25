@@ -17,7 +17,7 @@ Notice:
 
 1. Assign the whole permission of s3 to the IAM user in the management console.
 
-2. If all configurations are right and you register your aws account in ![www.amazonaws.cn](https://www.amazonaws.cn), and also you can upload your resources successfully, but your download_url is not working, then maybe you should make an ICP License in Amazon-China according to chinese law. Refer to ![https://www.amazonaws.cn/en/about-aws/china/faqs/](https://www.amazonaws.cn/en/about-aws/china/faqs/)
+2. If all configurations are right and you register your aws account in https://www.amazonaws.cn, and also you can upload your resources successfully, but your download_url is not working, then maybe you should make an ICP License in Amazon-China according to chinese law. Refer to https://www.amazonaws.cn/en/about-aws/china/faqs/
 
 ## Installation
 
